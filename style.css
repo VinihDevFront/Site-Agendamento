@@ -1,0 +1,83 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ESTILO IMAGEM FUNDO */
+.img-back{
+    background-image: url("images/Foto-Back.png");
+    background-repeat: no-repeat;
+    background-size: 2000px 600px;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+body{
+   height: 100%;
+   margin: 0; 
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ESTILO CABEÇALHO */
+.cabeçalho{
+    position: fixed;
+    background-color: #fff;
+    z-index: 5000;
+    width: 80%;
+    height: 100px;
+    top: 20px;
+    border-radius: 30px;
+    margin-left: 200px;
+}
+
+.menu-desktop{
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.logo-text{
+    color: #2c2a2a;
+    font-size: 60px;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;   
+}
+
+header a{
+    color: #646464;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: #000000;
+    transform: scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 40px;
+}
